@@ -1,7 +1,12 @@
-.App {
-  text-align: center;
-}
-.pash {
 
-  width: 18rem;
+.course-container {
+
+  width: 80%;
+  
+}
+
+.calculation-container {
+
+  width: 20%;
+  border-left: 1px lightgray solid;
 }

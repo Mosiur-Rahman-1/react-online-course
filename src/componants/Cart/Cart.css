@@ -1,0 +1,9 @@
+.course-cart-summary {
+
+    list-style: none;
+    color: #4e68ff;
+    border: 2px #4e68ff solid;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 0 0;
+}

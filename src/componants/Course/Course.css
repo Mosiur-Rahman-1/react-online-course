@@ -1,0 +1,10 @@
+.main-container {
+
+ display: flex;
+ float: left;
+}
+
+.card-width {
+
+  width: 288px;
+}
