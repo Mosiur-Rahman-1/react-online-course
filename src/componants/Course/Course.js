@@ -8,7 +8,7 @@ const Course = (props) => {
     return (
         <div className = "main-container">
             <div className="card card-width">
-                <img src={url} className="card-img-top img-thumbnail" alt="..."/>
+                <img src={url} className="card-img-top img-size" alt="courseImage"/>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <h6 className="card-title">${price}</h6>

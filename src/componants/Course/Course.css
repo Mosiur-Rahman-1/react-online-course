@@ -2,8 +2,14 @@
 
  display: flex;
  float: left;
+ justify-content: space-between;
+ margin: 10px;
 }
 
+.img-size{
+
+  height: 288px;
+}
 .card-width {
 
   width: 288px;

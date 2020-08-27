@@ -19,13 +19,16 @@ function App() {
   }
   return (
     <div>
-      <Navbar></Navbar>
+
+      <Navbar cart = {cart}></Navbar>
+
       <div className= "main-container">
         <div className ="course-container">
           {
           course.map( courseDetails => <Course courseDetails = {courseDetails} handleBuyCourse = {handleBuyCourse}></Course>)
           }
         </div>
+
         <div className = "calculation-container mt-3 pl-3">
           <h3 className = "text-center font-weight-bold">Order summary</h3>
           <h5>Total course: {course.length}</h5>
